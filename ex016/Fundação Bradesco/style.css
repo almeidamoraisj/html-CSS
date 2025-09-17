@@ -1,0 +1,50 @@
+@charset "UTF-8";
+:root {
+    --black: #000000;
+    --green: #00FF00;
+    --white: #FFFFFF;
+    
+}
+body {
+
+    font-family: monospace;
+    
+    }
+    
+ul {
+    
+    font-family: helvética;
+    
+    }
+li {
+
+    list-style: circle;
+        
+}
+        
+.list {
+        
+    list-style: square;
+        
+        }
+        
+#msg {
+        
+    font-family: monospace;
+        
+        }
+.light-theme {
+
+    color: #000000;
+    background: #00FF00;
+    --bg: var(-- --green);
+    --fontColor: var(-- black);
+            
+}
+.dark-theme {
+    color: #00FF00;
+    background: #000000;
+    --bg: var(-- black)
+    --fontColor: var(-- green)
+            
+     }
