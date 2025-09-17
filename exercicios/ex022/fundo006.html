@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh; /* 100% da altura da viewport */
-            background-color: black;
+            /*height: 100vh; /* 100% da altura da viewport */
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /*short-hand para background
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center repeat-y fixed;
+            background-size: cover; /*cobre toda a tela (size não está funcionando)*/
         }
         main {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             margin: auto;
-            width: 400px;
+            max-width: 400px;
             padding: 20px;
             border-radius: 15px;
             border: solid 3px darkblue;
@@ -27,7 +34,7 @@
 <body>
     <main>
         <h1>Teste</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum error, culpa explicabo, autem quaerat repellat est minima totam, fuga voluptas placeat ea aut exercitationem cumque assumenda eum. Consequatur, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, tenetur ipsum. Vel aliquid quod et sit, autem quaerat. Natus provident ratione magni maxime excepturi quod perspiciatis necessitatibus, placeat voluptatum expedita! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit provident hic aliquid sint non, repellat laboriosam illo ex consectetur aperiam unde odio quos perferendis placeat accusantium voluptate dignissimos corporis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum error, culpa explicabo, autem quaerat repellat est minima totam, fuga voluptas placeat ea aut exercitationem cumque assumenda eum. Consequatur, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, tenetur ipsum. Vel aliquid quod et sit, autem quaerat. Natus provident ratione magni maxime excepturi quod perspiciatis necessitatibus, placeat voluptatum expedita! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit provident hic aliquid sint non, repellat laboriosam illo ex consectetur aperiam unde odio quos perferendis placeat accusantium voluptate dignissimos corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum error, culpa explicabo, autem quaerat repellat est minima totam, fuga voluptas placeat ea aut exercitationem cumque assumenda eum. Consequatur, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, tenetur ipsum. Vel aliquid quod et sit, autem quaerat. Natus provident ratione magni maxime excepturi quod perspiciatis necessitatibus, placeat voluptatum expedita! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit provident hic aliquid sint non, repellat laboriosam illo ex consectetur aperiam unde odio quos perferendis placeat accusantium voluptate dignissimos corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum error, culpa explicabo, autem quaerat repellat est minima totam, fuga voluptas placeat ea aut exercitationem cumque assumenda eum. Consequatur, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, tenetur ipsum. Vel aliquid quod et sit, autem quaerat. Natus provident ratione magni maxime excepturi quod perspiciatis necessitatibus, placeat voluptatum expedita! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit provident hic aliquid sint non, repellat laboriosam illo ex consectetur aperiam unde odio quos perferendis placeat accusantium voluptate dignissimos corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum error, culpa explicabo, autem quaerat repellat est minima totam, fuga voluptas placeat ea aut exercitationem cumque assumenda eum. Consequatur, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, tenetur ipsum. Vel aliquid quod et sit, autem quaerat. Natus provident ratione magni maxime excepturi quod perspiciatis necessitatibus, placeat voluptatum expedita! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit provident hic aliquid sint non, repellat laboriosam illo ex consectetur aperiam unde odio quos perferendis placeat accusantium voluptate dignissimos corporis?</p>
     </main>
 </body>
 </html>
